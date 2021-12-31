@@ -1,0 +1,60 @@
+#clients img{
+    height: 130px;
+}
+#services .box {
+    padding: 3.128em 2em;
+    height: 230px;
+    border: 2px solid tomato;
+    margin: 0.4em auto;
+    border-radius: 2.5em;
+    width: 40%;
+    background-color: #fff7f7;
+}
+#services .box img {
+    display: block;
+    margin: auto;
+    height: 130px;
+}
+.h-primary {
+    font-family: Roboto;
+    font-size: 1.5rem;
+    padding: 0.125em;
+}
+
+.h-primary-center {
+    font-family: Roboto;
+    font-size: 1.5rem;
+    padding: 0.125em;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.h-seconday-center {
+    font-family: Roboto;
+    font-size: 1.2rem;
+    padding: 0.125em;
+    text-align: center;
+}
+
+.btn a {
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: Roboto;
+    font-size: 0.8rem;
+    color: white;
+}
+.btn{
+    border: 0.01em solid white;
+    border-radius: 1em;
+    background-color: brown;
+    padding: 0.5em 1.5em;
+    margin: 1em 0em;
+}
+footer div.center {
+    text-align: center;
+    font-size: 0.7em;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(16 13 13);
+    padding: 1em;
+}

@@ -1,0 +1,37 @@
+#clients img{
+    height: 180px;
+}
+#contact-box label {
+    font-family: Roboto;
+    font-size: 0.9em;
+    font-family: 'Poppins', sans-serif;
+}
+#contact-box input, textarea {
+    padding: 0.5rem;
+    width: 100%;
+    font-size: 0.7rem;
+}
+#contact-box form button {
+    font-family: Poppins;
+    color: white;
+    font-size: 1rem;
+    display: block;
+    margin: auto;
+    border: 0px;
+    padding: 0.4em 0.6em;
+    background-color: brown;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+#contact-box form button:hover{
+    font-family: Poppins;
+    color: white;
+    font-size: 1rem;
+    display: block;
+    margin: auto;
+    border: 0px;
+    padding: 0.5em 0.6em;
+    background-color: rgb(56, 2, 2);
+    border-radius: 1em;
+}

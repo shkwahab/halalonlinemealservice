@@ -1,0 +1,42 @@
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.7rem;
+}
+#home p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.7rem;
+}
+
+p.center {
+    text-align: center;
+}
+
+
+#clients img{
+    height: 150px;
+}
+
+#contact-box form button {
+    font-family: Poppins;
+    color: white;
+    font-size: 0.9rem;
+    display: block;
+    margin: auto;
+    border: 0px;
+    padding: 0.4em 0.6em;
+    background-color: brown;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+#contact-box form button:hover{
+    font-family: Poppins;
+    color: white;
+    font-size: 0.9rem;
+    display: block;
+    margin: auto;
+    border: 0px;
+    padding: 0.5em 0.6em;
+    background-color: rgb(56, 2, 2);
+    border-radius: 1em;
+}

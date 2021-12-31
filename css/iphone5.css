@@ -1,0 +1,14 @@
+nav a {
+    font-size: 0.6rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+}
+nav li {
+    list-style: none;
+    padding: 1.3em;
+    margin: -0.7em 0em;
+}
+#clients img {
+    height: 80px;
+}

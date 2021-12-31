@@ -1,0 +1,239 @@
+* {
+    margin: 0em;
+    padding: 0em;
+}
+
+.un {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    padding: 1.4em;
+    margin: 0.3em 0em;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+}
+
+nav a:hover {
+    color: red;
+    border: 4px solid white;
+    background-color: white;
+    border-radius: 3em;
+    margin: .3em;
+    padding: .2em;
+}
+
+nav {
+    display: flex;
+    position: relative;
+    top: 0;
+    align-items: center;
+}
+
+nav::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(2, 0, 0);
+    z-index: -1;
+    opacity: 0.3;
+
+}
+
+
+#logo img {
+    width: 54.5px;
+    height: 54.5px;
+    margin: 3px 16px;
+}
+
+/* Home Section Content */
+#home {
+    display: flex;
+    height: 28em;
+    flex-direction: column;
+    padding: 1em 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80%;
+    background: url('../images/bg.jpg') no-repeat center center/cover;
+    z-index: -2;
+    opacity: 1;
+}
+
+.h-primary {
+    font-family: Roboto;
+    font-size: 3rem;
+    padding: 0.25em;
+}
+
+.h-primary-center {
+    font-family: Roboto;
+    font-size: 3rem;
+    padding: 0.25em;
+    text-align: center;
+}
+
+.h-seconday-center {
+    font-family: Roboto;
+    font-size: 2.5rem;
+    padding: 0.25em;
+    text-align: center;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+p.center {
+    text-align: center;
+}
+
+#home h1 {
+    text-align: center;
+    color: white;
+}
+
+#home p {
+    padding: 0.125em;
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    ;
+}
+
+.btn a {
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: Roboto;
+    font-size: 1.1em;
+    color: white;
+}
+
+.btn {
+    border: 0.02em solid white;
+    border-radius: 1em;
+    background-color: brown;
+    padding: 0.7em 1.7em;
+    margin: 1em 0em;
+
+}
+
+.btn:hover {
+    background-color: rgb(54, 2, 2);
+}
+
+/* Services */
+#services {
+    display: flex;
+    margin: 2em;
+}
+
+#services .box {
+    padding: 2.128em;
+    border: 2px solid tomato;
+    margin: 0.3em 0.4em;
+    border-radius: 1.5em;
+    background-color: #fff7f7;
+}
+
+#services .box img {
+    display: block;
+    margin: auto;
+    height: 160px;
+}
+
+/* Clients Sections */
+
+#clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clients img{
+    height: 250px;
+}
+.client-items{
+    padding: 2.128em;
+}
+/* Contact Section */
+#contactus{
+    position: relative;
+}
+#contactus::before{
+    content: "";
+    position: absolute;
+    background-color: rgb(253 251 213 / 66%);
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+footer div.center{
+    text-align: center;
+    font-size: 1em;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(16 13 13);
+    padding: 1em;
+}
+#contact-box input,textarea{
+    padding: 0.5rem;
+    width: 100%;
+    font-size: 1.1rem;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:  2.128em;
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-family: Roboto;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+}
+#contact-box form button{
+    font-family: Poppins;
+    color: white;
+    font-size: 1.3rem;
+    display: block;
+    margin: 0.2em auto;
+    border: 0px;
+    padding: 0.5em;
+    background-color: brown;
+    border-radius: 1em;
+    cursor: pointer;
+
+}
+#contact-box form button:hover{
+    font-family: Poppins;
+    color: white;
+    font-size: 1.3rem;
+    display: block;
+    margin: auto;
+    border: 0px;
+    padding: 0.6em;
+    background-color: rgb(56, 2, 2);
+    border-radius: 1em;
+}

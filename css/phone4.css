@@ -1,0 +1,31 @@
+#clients img{
+    height: 100px;
+}
+#services .box img {
+    display: block;
+    margin: auto;
+    height: 100px;
+}
+nav a {
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+}
+#services .box {
+    padding: 3.128em 2em;
+    height: 210px;
+    border: 2px solid tomato;
+    margin: 0.4em auto;
+    border-radius: 2.5em;
+    width: 40%;
+    background-color: #fff7f7;
+}
+footer div.center {
+    text-align: center;
+    font-size: 0.6em;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(16 13 13);
+    padding: 1em;
+}

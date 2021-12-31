@@ -1,0 +1,121 @@
+#navp{
+    flex-direction: column;
+}
+nav li{
+    list-style: none;
+    padding: 1.4em;
+    margin: -0.7em 0em;
+}
+.btn a {
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: Roboto;
+    font-size: 0.9rem;
+    color: white;
+}
+.btn{
+    border: 0.02em solid white;
+    border-radius: 1em;
+    background-color: brown;
+    padding: 0.7em 1.7em;
+    margin: 1em 0em;
+}
+#contact-box form button {
+    font-family: Poppins;
+    color: white;
+    font-size: 1rem;
+    display: block;
+    margin: auto;
+    border: 0px;
+    padding: 0.5em 0.7em;
+    background-color: brown;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+#contact-box form button:hover{
+    font-family: Poppins;
+    color: white;
+    font-size: 1rem;
+    display: block;
+    margin: auto;
+    border: 0px;
+    padding: 0.6em 0.7em;
+    background-color: rgb(56, 2, 2);
+    border-radius: 1em;
+}
+#home{
+height: 200px;
+}
+#home::before{
+    height: 380px;
+}
+#services{
+flex-direction: column;   
+margin: 0em;
+}
+#services .box{
+    padding: 3.128em 2em;
+    height: 275px;
+    border: 2px solid tomato;
+    margin: 0.4em auto;
+    border-radius: 2.5em;
+    width: 40%;
+    background-color: #fff7f7;
+}
+
+#clients .client-items{
+    padding: 1em 0em;
+    margin: 0em auto;
+}
+#clients img{
+    height: 200px;
+}
+
+.h-primary {
+    font-family: Roboto;
+    font-size: 2rem;
+    padding: 0.125em;
+}
+
+.h-primary-center {
+    font-family: Roboto;
+    font-size: 2rem;
+    padding: 0.125em;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.h-seconday-center {
+    font-family: Roboto;
+    font-size: 1.5rem;
+    padding: 0.125em;
+    text-align: center;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: .8rem;
+}
+#home p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+}
+
+p.center {
+    text-align: center;
+}
+
+footer div.center{
+    text-align: center;
+    font-size: 0.8em;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(16 13 13);
+    padding: 1em;
+}
+#contact-box input,textarea{
+    padding: 0.5rem;
+    width: 100%;
+    font-size: 0.8rem;
+}
